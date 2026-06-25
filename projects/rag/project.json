@@ -1,0 +1,10 @@
+{
+  "id": "rag-assistant-backend",
+  "title": "Retrieval-Augmented Generation (RAG) system",
+  "shortDescription": "Retrieval-Augmented Generation system that answers questions from custom documents using local embeddings and LLMs.",
+  "description": "Developed a Retrieval-Augmented Generation (RAG) back-end that enables users to query their own documents through natural language. The system ingests text documents, splits them into semantic chunks, generates embeddings using Ollama's nomic-embed-text model, and stores them in a Chroma vector database. At query time, relevant document chunks are retrieved through similarity search and injected into a prompt before being sent to a locally hosted Ollama language model. The project uses semantic search, vector databases, prompt engineering, and privacy-preserving AI workflows running entirely on local infrastructure.",
+  "tags": ["RAG", "ChromaDB", "LangChain", "Vector Database", "Ollama","LLM", "Python"],
+  "thumbnail": "thumbnail.png",
+  "presentation": "presentation.pdf",
+  "date": "2026-06"
+}

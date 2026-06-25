@@ -1,0 +1,10 @@
+{
+  "id": "ai-meeting-backend",
+  "title": "AI Meeting Assistant backend API",
+  "shortDescription": "AI-powered API that converts meeting recordings into transcripts, summaries, and action items.",
+  "description": "Developed a backend service that automates meeting documentation using speech-to-text and large language models. \n The application transcribes audio recordings with Whisper, processes transcripts through a LLM, and generates structured summaries along with action items. Built with FastAPI, the system supports MP3, TXT, and JSON inputs through REST endpoints, enabling teams to quickly transform raw meeting discussions into concise and actionable notes while keeping all AI processing local.",
+  "tags": ["Python", "FastAPI", "LLM", "Whisper", "Ollama", "Uvicorn", "AI", "Speech-to-Text"],
+  "thumbnail": "thumbnail.png",
+  "presentation": "presentation.pdf",
+  "date": "2026-06-05"
+}

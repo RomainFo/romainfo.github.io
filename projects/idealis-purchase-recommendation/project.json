@@ -1,0 +1,10 @@
+{
+  "id": "purchase-recommendation-engine",
+  "title": "AI-Powered Purchase Recommendation",
+  "shortDescription": "Predicting which products customers are likely to order and in what quantity using machine learning and historical purchasing behavior.",
+  "description": "Developed a machine learning proof of concept that generates personalized purchase recommendations for customers on a daily basis. The system analyzes historical order data, customer behavior, product information, weather conditions, seasonal patterns, holidays, and customer group characteristics to predict future purchases and recommended quantities. Built a complete data pipeline integrating BigQuery data sources, feature engineering, confidence scoring, fallback recommendation strategies, and quantity prediction models. The solution produces actionable sales order suggestions that can be refreshed daily and integrated into business workflows, helping sales teams anticipate customer needs and improve order planning.",
+  "tags": ["Machine Learning",  "Recommendation", "BigQuery", "Time Series", "Data analysis", "Python"],
+  "thumbnail": "thumbnail.png",
+  "presentation": "presentation.pdf",
+  "date": "2025-06"
+}

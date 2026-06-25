@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project | Romain Fochon</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html">Romain Fochon</a>
+      <button class="menu-toggle" aria-label="Open navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="cv.html">CV</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="project-detail">
+    <div class="container">
+      <section class="project-header-block">
+        <div class="project-header-top">
+          <div>
+            <p class="eyebrow">Project</p>
+            <h1></h1>
+            <p></p>
+          </div>
+        </div>
+      </section>
+      <section class="project-detail-grid">
+        <div class="project-presentation-card">
+          <section id="project-presentation-section" class="project-presentation-section" hidden>
+            <h2>Presentation</h2>
+            <iframe id="project-presentation-frame" class="project-presentation-frame" title="Project presentation"></iframe>
+          </section>
+        </div>
+
+        <aside class="project-detail-sidebar">
+          <section class="project-tags-card">
+            <h2>Tags</h2>
+            <div class="tag-cloud"></div>
+          </section>
+        </aside>
+      </section>
+
+      <section class="project-gallery-section">
+        <div id="project-gallery" class="project-gallery" hidden>
+          <div class="project-gallery-track">
+            <div class="project-gallery-slides"></div>
+          </div>
+          <div class="project-gallery-controls">
+            <button class="project-gallery-btn" data-direction="prev" aria-label="Previous image">‹</button>
+            <div class="project-gallery-dots"></div>
+            <button class="project-gallery-btn" data-direction="next" aria-label="Next image">›</button>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© <span id="year"></span> Romain Fochon</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

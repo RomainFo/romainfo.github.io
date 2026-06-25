@@ -1,0 +1,10 @@
+{
+  "id": "odoo-ai-meeting-assistant",
+  "title": "Odoo module: AI Meeting Assistant",
+  "shortDescription": "Custom Odoo module integrating AI to transform meeting recordings into transcripts, summaries, and actionable tasks.",
+  "description": "Developed a full-stack AI Meeting Assistant integrated into Odoo as a custom business module. The solution allows users to upload meeting recordings directly from the ERP, automatically transcribe audio using Whisper-based speech recognition, generate concise summaries, and extract action items through Large Language Models such as Ollama. REST API integration with a FastAPI backend, and a dedicated Odoo user interface. Integration of AI-powered automation into enterprise software.",
+  "tags": ["Odoo", "AI", "FastAPI", "Ollama","Python", "Whisper", "LLM", "Speech-to-Text", "Uvicorn"],
+  "thumbnail": "thumbnail.png",
+  "presentation": "presentation.pdf",
+  "date": "2026-06-10"
+}

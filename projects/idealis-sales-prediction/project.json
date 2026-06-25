@@ -1,0 +1,10 @@
+{
+  "id": "idealis-sales-prediction",
+  "title": "Sales Revenue and Product Demand Forecasting",
+  "shortDescription": "Machine learning project forecasting monthly/weekly/daily sales revenue and product demand using time-series features and models.",
+  "description": "Developed a machine learning forecasting pipeline to predict monthly sales revenue and product demand from business transaction data. The project included data extraction from BigQuery, preprocessing, feature engineering with date-based variables, holiday effects, discount periods, lag features, rolling statistics, and exponential moving averages. Several regression and classification approaches were explored, including LightGBM and XGBoost, with model evaluation based on MAE, prediction accuracy, ROC-AUC, and F1 score. The project aimed to support business decision-making by anticipating future revenue trends and product demand.",
+  "tags": ["Machine Learning",  "BigQuery", "Time Series Forecasting", "Gradient Boosting", "LightGBM", "XGBoost", "Python"],
+  "thumbnail": "thumbnail.png",
+  "presentation": "presentation.pdf",
+  "date": "2026-06"
+}
