@@ -1,0 +1,32 @@
+[
+  {
+    "slug": "rag-assistant-backend",
+    "folder": "projects/rag"
+  },
+  {
+    "slug": "tfe",
+    "folder": "projects/tfe"
+  },
+  {
+    "slug": "odoo-ai-assistant",
+    "folder": "projects/odoo-ai-assistant"
+  },
+  {
+    "slug": "idealis-purchase-recommendation",
+    "folder": "projects/idealis-purchase-recommendation"
+  },
+  {
+    "slug": "idealis-sales-prediction",
+    "folder": "projects/idealis-sales-prediction"
+  },
+  {
+    "slug": "idealis-client-segmentation",
+    "folder": "projects/idealis-client-segmentation"
+  },
+  {
+    "slug": "ai-meeting-backend",
+    "folder": "projects/ai-meeting-backend"
+  }
+
+]
+

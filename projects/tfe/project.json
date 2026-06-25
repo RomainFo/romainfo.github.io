@@ -1,0 +1,10 @@
+{
+  "id": "tfe",
+  "title": "Machine Learning for historical bowed instruments",
+  "shortDescription": "Research project conducted with UCLouvain and the MIM to identify reduced historical violins using machine learning.",
+  "description": "Master's thesis conducted in collaboration with UCLouvain and the Musical Instruments Museum (MIM) in Brussels. The project investigated the automatic identification of reduced versus non-reduced historical bowed instruments from high-precision 3D photogrammetry data. I designed, implemented, and evaluated Multiple Kernel Learning (EasyMKL), Convolutional Neural Networks, transfer learning architectures, and Multi-Layer Perceptrons on a highly imbalanced dataset of historical violins. The work included feature engineering from contour-line geometry, image-based processing of elevation maps, nested cross-validation, hyperparameter optimization, data augmentation, ablation studies, and model interpretability analysis.",
+  "tags": ["Machine learning", "Computer Vision", "CNN", "MKL", "MLP", "Transfer Learning", "Data Augmentation", "Nested Cross-Validation", "Python", "MIM", "UCLouvain"],
+  "thumbnail": "thumbnail.png",
+  "presentation": "presentation.pdf",
+  "date": "2026-05"
+}

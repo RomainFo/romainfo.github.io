@@ -1,0 +1,10 @@
+{
+  "id": "purchase-recommendation-engine",
+  "title": "Client Segmentation & Customer Profiling",
+  "shortDescription": "Using clustering algorithms to identify customer profiles from CRM, event, revenue, and satisfaction data.",
+  "description": "Developed a machine learning proof of concept for customer segmentation using business data extracted from BigQuery. The project combined CRM activity, event participation, revenue generation, and customer satisfaction indicators to build meaningful customer profiles. Implemented preprocessing pipelines, dimensionality reduction with PCA, feature selection, and unsupervised learning techniques including K-Means and Agglomerative Clustering. Evaluated cluster quality using Elbow and Silhouette methods and created visual analytics to interpret cluster behavior. Decision trees were used to explain segment characteristics and identify the features that most strongly differentiated customer groups. The resulting profiles provided actionable insights for marketing, customer engagement, and business strategy.",
+  "tags": ["Machine Learning",  "Clustering", "Time Series Forecasting", "BigQuery", "K-Means", "Data analysis", "Python"],
+  "thumbnail": "thumbnail.png",
+  "presentation": "presentation.pdf",
+  "date": "2025-06"
+}
